@@ -1,0 +1,28 @@
+{
+  "name": "lerna-team-is-odd",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "pqxglobal <l.r.slegt@gmail.com>",
+  "homepage": "https://github.com/pqxglobal/lerna-team#readme",
+  "license": "ISC",
+  "main": "dist/lerna-team-is-odd.js",
+  "types": "dist/lerna-team-is-odd.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqxglobal/lerna-team.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/pqxglobal/lerna-team/issues"
+  }
+}
